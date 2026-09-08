@@ -6,6 +6,7 @@ The scans were acquired on a Siemens Magnetom Prisma running syngo MR E11.
 
 This repo provides the DICOM images, raw and in [BIDS](https://bids.neuroimaging.io/index.html) organization.
 
+If you are looking for derived data, like FreeSurfer reconstructions (`recon-all` output) based on these data, please see the [sub-01-derived repo](https://github.com/dfsp-spirit/sub-01-derived).
 
 ## Repo Organization
 
