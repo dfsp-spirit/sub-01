@@ -1,0 +1,6 @@
+2026-09-08 12:28:14 - INFO | 
+2026-09-08 12:28:14 - INFO | -------------- START BIDScoiner 4.6.2: BIDS 1.10.0 ------------
+2026-09-08 12:28:14 - INFO | >>> bidscoiner sourcefolder=/home/ts/develop/sub-01/raw bidsfolder=/home/ts/develop/sub-01/bids participant=None force=False bidsmap=bidsmap.yaml
+2026-09-08 12:28:14 - VERBOSE | Adding [{'Name': 'BIDScoin', 'Version': '4.6.2', 'Description:': 'A versatile GUI application suite that converts source datasets to BIDS', 'CodeURL': 'https://github.com/Donders-Institute/bidscoin'}] to /home/ts/develop/sub-01/bids/dataset_description.json
+2026-09-08 12:28:14 - INFO | No bidsmap file found: /home/ts/develop/sub-01/bids/code/bidscoin/bidsmap.yaml
+2026-09-08 12:28:14 - ERROR | No bidsmap file found in /home/ts/develop/sub-01/bids. Please run the bidsmapper first and/or use the correct bidsfolder

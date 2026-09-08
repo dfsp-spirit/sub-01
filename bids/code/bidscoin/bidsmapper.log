@@ -1,0 +1,80 @@
+2026-09-08 12:27:28 - INFO | 
+2026-09-08 12:27:28 - INFO | -------------- START BIDSmapper ------------
+2026-09-08 12:27:28 - INFO | >>> bidsmapper sourcefolder=/home/ts/develop/sub-01/raw bidsfolder=/home/ts/develop/sub-01/bids bidsmap=bidsmap.yaml template=/home/ts/.bidscoin/4.6.2/templates/bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2026-09-08 12:27:28 - INFO | No bidsmap file found: /home/ts/develop/sub-01/bids/code/bidscoin/bidsmap.yaml
+2026-09-08 12:27:28 - INFO | Reading: /home/ts/.bidscoin/4.6.2/templates/bidsmap_dccn.yaml
+2026-09-08 12:27:28 - INFO | Checking the bidsmap run-items:
+2026-09-08 12:27:28 - VERBOSE | Could not validate every run-item in the bidsmap
+2026-09-08 12:27:28 - VERBOSE | Checking the template bidsmap datatypes:
+2026-09-08 12:27:28 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2026-09-08 12:27:28 - INFO | Mapping: /home/ts/develop/sub-01/raw/sub-01 (subject 1/1)
+2026-09-08 12:27:28 - INFO | Detected a flat data-structure in: /home/ts/develop/sub-01/raw/sub-01
+2026-09-08 12:27:28 - INFO | Making temporary copy: /home/ts/develop/sub-01/raw/sub-01 -> /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01
+2026-09-08 12:27:28 - INFO | >> Sorting: /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01 (1035 files)
+2026-09-08 12:27:28 - VERBOSE | [0%]   Creating:  /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/006-ep2d_diff_2mm
+2026-09-08 12:27:28 - VERBOSE | [0%]   Creating:  /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/004-T2w_TSE_1mm_iPAT_3D
+2026-09-08 12:27:28 - VERBOSE | [0%]   Creating:  /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/003-T2w_TSE_1mm
+2026-09-08 12:27:28 - VERBOSE | [0%]   Creating:  /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/007-ep2d_diff_2mm_ADC
+2026-09-08 12:27:28 - VERBOSE | [0%]   Creating:  /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/002-T1w_MPRAGE_1mm
+2026-09-08 12:27:28 - VERBOSE | [0%]   Creating:  /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/005-ep2d_bold_3mm
+2026-09-08 12:27:28 - VERBOSE | [3%]   Creating:  /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/008-ep2d_diff_2mm_FA
+2026-09-08 12:27:29 - VERBOSE | [35%]   Creating:  /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/001-localizer
+2026-09-08 12:27:29 - VERBOSE | Executing plugin: dcm2niix2bids -> /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01
+2026-09-08 12:27:29 - INFO | Discovered sample: [DICOM] /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/001-localizer/0001_MR000001.dcm
+2026-09-08 12:27:29 - INFO | Discovered sample: [DICOM] /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/002-T1w_MPRAGE_1mm/0002_MR000004.dcm
+2026-09-08 12:27:29 - INFO | Discovered sample: [DICOM] /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/003-T2w_TSE_1mm/0003_MR000196.dcm
+2026-09-08 12:27:29 - INFO | Discovered sample: [DICOM] /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/004-T2w_TSE_1mm_iPAT_3D/0004_MR000388.dcm
+2026-09-08 12:27:29 - INFO | Discovered sample: [DICOM] /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/005-ep2d_bold_3mm/0005_MR000580.dcm
+2026-09-08 12:27:29 - INFO | Discovered sample: [DICOM] /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/006-ep2d_diff_2mm/0006_MR000820.dcm
+2026-09-08 12:27:29 - INFO | Discovered sample: [DICOM] /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/007-ep2d_diff_2mm_ADC/0007_MR000892.dcm
+2026-09-08 12:27:29 - INFO | Discovered sample: [DICOM] /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/008-ep2d_diff_2mm_FA/0008_MR000964.dcm
+2026-09-08 12:27:29 - VERBOSE | Executing plugin: events2bids -> /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01
+2026-09-08 12:27:29 - INFO | Opening the bidseditor
+2026-09-08 12:27:29 - WARNING | /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/002-T1w_MPRAGE_1mm/0002_MR000004.dcm not found
+2026-09-08 12:27:29 - WARNING | /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/003-T2w_TSE_1mm/0003_MR000196.dcm not found
+2026-09-08 12:27:29 - WARNING | /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/004-T2w_TSE_1mm_iPAT_3D/0004_MR000388.dcm not found
+2026-09-08 12:27:29 - WARNING | /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/005-ep2d_bold_3mm/0005_MR000580.dcm not found
+2026-09-08 12:27:29 - WARNING | /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/006-ep2d_diff_2mm/0006_MR000820.dcm not found
+2026-09-08 12:27:29 - WARNING | /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/001-localizer/0001_MR000001.dcm not found
+2026-09-08 12:27:29 - WARNING | /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/007-ep2d_diff_2mm_ADC/0007_MR000892.dcm not found
+2026-09-08 12:27:29 - WARNING | /tmp/tmp1iayumy3/home/ts/develop/sub-01/raw/sub-01/008-ep2d_diff_2mm_FA/0008_MR000964.dcm not found
+2026-09-08 12:28:48 - INFO | 
+2026-09-08 12:28:48 - INFO | -------------- START BIDSmapper ------------
+2026-09-08 12:28:48 - INFO | >>> bidsmapper sourcefolder=/home/ts/develop/sub-01/raw bidsfolder=/home/ts/develop/sub-01/bids bidsmap=bidsmap.yaml template=/home/ts/.bidscoin/4.6.2/templates/bidsmap_dccn.yaml plugins=[] subprefix=None sesprefix=None store=False force=False
+2026-09-08 12:28:48 - INFO | No bidsmap file found: /home/ts/develop/sub-01/bids/code/bidscoin/bidsmap.yaml
+2026-09-08 12:28:48 - INFO | Reading: /home/ts/.bidscoin/4.6.2/templates/bidsmap_dccn.yaml
+2026-09-08 12:28:48 - INFO | Checking the bidsmap run-items:
+2026-09-08 12:28:48 - VERBOSE | Could not validate every run-item in the bidsmap
+2026-09-08 12:28:48 - VERBOSE | Checking the template bidsmap datatypes:
+2026-09-08 12:28:48 - SUCCESS | All datatypes and options in the template bidsmap are valid
+2026-09-08 12:28:48 - INFO | Mapping: /home/ts/develop/sub-01/raw/sub-01 (subject 1/1)
+2026-09-08 12:28:48 - INFO | Detected a flat data-structure in: /home/ts/develop/sub-01/raw/sub-01
+2026-09-08 12:28:48 - INFO | Making temporary copy: /home/ts/develop/sub-01/raw/sub-01 -> /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01
+2026-09-08 12:28:48 - INFO | >> Sorting: /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01 (1035 files)
+2026-09-08 12:28:48 - VERBOSE | [0%]   Creating:  /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/006-ep2d_diff_2mm
+2026-09-08 12:28:48 - VERBOSE | [0%]   Creating:  /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/004-T2w_TSE_1mm_iPAT_3D
+2026-09-08 12:28:48 - VERBOSE | [0%]   Creating:  /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/003-T2w_TSE_1mm
+2026-09-08 12:28:48 - VERBOSE | [0%]   Creating:  /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/007-ep2d_diff_2mm_ADC
+2026-09-08 12:28:48 - VERBOSE | [0%]   Creating:  /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/002-T1w_MPRAGE_1mm
+2026-09-08 12:28:48 - VERBOSE | [0%]   Creating:  /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/005-ep2d_bold_3mm
+2026-09-08 12:28:49 - VERBOSE | [3%]   Creating:  /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/008-ep2d_diff_2mm_FA
+2026-09-08 12:28:49 - VERBOSE | [35%]   Creating:  /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/001-localizer
+2026-09-08 12:28:49 - VERBOSE | Executing plugin: dcm2niix2bids -> /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01
+2026-09-08 12:28:49 - INFO | Discovered sample: [DICOM] /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/001-localizer/0001_MR000001.dcm
+2026-09-08 12:28:49 - INFO | Discovered sample: [DICOM] /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/002-T1w_MPRAGE_1mm/0002_MR000004.dcm
+2026-09-08 12:28:49 - INFO | Discovered sample: [DICOM] /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/003-T2w_TSE_1mm/0003_MR000196.dcm
+2026-09-08 12:28:49 - INFO | Discovered sample: [DICOM] /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/004-T2w_TSE_1mm_iPAT_3D/0004_MR000388.dcm
+2026-09-08 12:28:49 - INFO | Discovered sample: [DICOM] /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/005-ep2d_bold_3mm/0005_MR000580.dcm
+2026-09-08 12:28:49 - INFO | Discovered sample: [DICOM] /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/006-ep2d_diff_2mm/0006_MR000820.dcm
+2026-09-08 12:28:49 - INFO | Discovered sample: [DICOM] /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/007-ep2d_diff_2mm_ADC/0007_MR000892.dcm
+2026-09-08 12:28:49 - INFO | Discovered sample: [DICOM] /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/008-ep2d_diff_2mm_FA/0008_MR000964.dcm
+2026-09-08 12:28:49 - VERBOSE | Executing plugin: events2bids -> /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01
+2026-09-08 12:28:49 - INFO | Opening the bidseditor
+2026-09-08 12:28:49 - WARNING | /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/002-T1w_MPRAGE_1mm/0002_MR000004.dcm not found
+2026-09-08 12:28:49 - WARNING | /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/003-T2w_TSE_1mm/0003_MR000196.dcm not found
+2026-09-08 12:28:49 - WARNING | /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/004-T2w_TSE_1mm_iPAT_3D/0004_MR000388.dcm not found
+2026-09-08 12:28:49 - WARNING | /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/005-ep2d_bold_3mm/0005_MR000580.dcm not found
+2026-09-08 12:28:49 - WARNING | /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/006-ep2d_diff_2mm/0006_MR000820.dcm not found
+2026-09-08 12:28:49 - WARNING | /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/001-localizer/0001_MR000001.dcm not found
+2026-09-08 12:28:49 - WARNING | /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/007-ep2d_diff_2mm_ADC/0007_MR000892.dcm not found
+2026-09-08 12:28:49 - WARNING | /tmp/tmph64_93rk/home/ts/develop/sub-01/raw/sub-01/008-ep2d_diff_2mm_FA/0008_MR000964.dcm not found

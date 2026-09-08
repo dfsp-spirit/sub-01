@@ -1,0 +1,25 @@
+{
+    "Name": "",
+    "BIDSVersion": "v1.11.1",
+    "License": "",
+    "Authors": [
+        ""
+    ],
+    "Acknowledgments": "",
+    "HowToAcknowledge": "",
+    "Funding": [
+        ""
+    ],
+    "ReferencesAndLinks": [
+        ""
+    ],
+    "DatasetDOI": "",
+    "GeneratedBy": [
+        {
+            "Name": "BIDScoin",
+            "Version": "4.6.2",
+            "Description:": "A versatile GUI application suite that converts source datasets to BIDS",
+            "CodeURL": "https://github.com/Donders-Institute/bidscoin"
+        }
+    ]
+}
