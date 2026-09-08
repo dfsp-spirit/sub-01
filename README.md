@@ -9,7 +9,7 @@ This repo provides the DICOM images, raw and in [BIDS](https://bids.neuroimaging
 
 ## Repo Organization
 
-* [raw/](./raw/): the raw DICOM images from the scanner. Anonymized with dicom-anonymizer.
+* [raw/](./raw/): the raw DICOM images from the scanner. Anonymized with dicom-anonymizer, see [scripts/](./scripts/) for details on how this was done to preserve metadata required by dcm2bids while removing sensitive information.
 * [bids/](./bids/): the DICOM images in BIDS organization
 
 
