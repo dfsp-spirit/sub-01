@@ -1,6 +1,6 @@
 ## sub-01
 
-MR scans of a human, adult brain at 3T.
+MR scans of a human, adult brain at 3T under CC0 license.
 
 The scans were acquired on a Siemens Magnetom Prisma running syngo MR E11.
 
