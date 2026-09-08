@@ -1,14 +1,14 @@
 {
-    "Name": "",
+    "Name": "MR scans of a human, adult brain at 3T",
     "BIDSVersion": "v1.11.1",
-    "License": "",
+    "License": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
     "Authors": [
-        ""
+        "Tim Schäfer"
     ],
-    "Acknowledgments": "",
-    "HowToAcknowledge": "",
+    "Acknowledgments": "Caroline Mann, Anke Bletsch, Christine Ecker",
+    "HowToAcknowledge": "https://github.com/dfsp-spirit/sub-01",
     "Funding": [
-        ""
+        "Pilot scan to test sequences, funded by Ecker Lab, University Hospital Frankfurt am Main, Germany"
     ],
     "ReferencesAndLinks": [
         ""
