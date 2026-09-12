@@ -3,9 +3,9 @@
     "BIDSVersion": "v1.11.1",
     "License": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
     "Authors": [
-        "Tim Schäfer"
+        "Tim Schäfer", "Caroline Mann", "Anke Bletsch", "Christine Ecker"
     ],
-    "Acknowledgments": "Caroline Mann, Anke Bletsch, Christine Ecker",
+    "Acknowledgments": "Thanks to the Brain Imaging Center of the University Hospital Frankfurt am Main, Germany, for providing the scanner and support during the scans.",
     "HowToAcknowledge": "https://github.com/dfsp-spirit/sub-01",
     "Funding": [
         "Pilot scans to test sequences, funded by Ecker Lab, University Hospital Frankfurt am Main, Germany"
@@ -13,13 +13,13 @@
     "ReferencesAndLinks": [
         ""
     ],
-    "DatasetDOI": "",
+    "DatasetDOI": "10.5281/zenodo.22697454",
     "GeneratedBy": [
         {
-            "Name": "BIDScoin",
-            "Version": "4.6.2",
-            "Description:": "A versatile GUI application suite that converts source datasets to BIDS",
-            "CodeURL": "https://github.com/Donders-Institute/bidscoin"
+            "Name": "dcm2bids",
+            "Version": "3.3.0",
+            "Description:": "dcm2bids 3.3.0 is a tool to convert DICOM files to BIDS format. We installed the listed version from PyPi.",
+            "CodeURL": "https://github.com/unfoldtoolbox/dcm2bids"
         }
     ]
 }
