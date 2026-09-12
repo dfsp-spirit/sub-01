@@ -8,6 +8,12 @@ This repo provides the DICOM images, raw and in [BIDS](https://bids.neuroimaging
 
 If you are looking for derived data, like FreeSurfer reconstructions (`recon-all` output) based on these data, please see the [sub-01-derived repo](https://github.com/dfsp-spirit/sub-01-derived).
 
+
+**This git repo is a convenience access method to a subset of the data in the following dataset, published on Zenodo: [
+Dataset Open
+MR scans of a human, adult brain at 3T in BIDS format. Includes DICOMS, preprocessed output of FreeSurfer, fmriprep and qsirecon](https://doi.org/10.5281/zenodo.22697454)**
+
+
 ## Repo Organization
 
 * [raw/](./raw/): the raw DICOM images from the scanner, anonymized with `dicom-anonymizer`. See [scripts/](./scripts/) for details on how this was done to preserve metadata required by dcm2bids while removing sensitive information.
